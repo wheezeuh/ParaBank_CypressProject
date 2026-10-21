@@ -1,0 +1,16 @@
+ {  
+    "firstName": "Luiza",
+    "lastName": "Transfiguracion",
+    "address": "B 3 L 25",
+    "city": "Baguio",
+    "state": "Philippines",
+    "zipCode": "1234",
+    "phone": "948273658",
+    "ssn": "772293",
+
+    "username": "Lady",
+    "password": "Password123",
+    "confirm": "Password123",
+
+    "usedUsername":"Liza"
+ }

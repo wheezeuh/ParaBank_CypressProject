@@ -1,0 +1,23 @@
+{
+  "name": "parabank_cypressproject",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "cypress run",
+    "open":"cypress open",
+    "test:browser:headed": "cypress run --browser edge --headed ",
+    "test:browser:headedless": "cypress run --browser edge --headless ",
+    "test:login":"cypress run --spec cypress/e2e/loginScenarios.cy.js --headed",
+    "test:registration":"cypress run --spec cypress/e2e/registrationScenarios.cy.js --headed"
+
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^16.2.0"
+  }
+}
